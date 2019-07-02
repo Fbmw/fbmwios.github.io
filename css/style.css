@@ -178,7 +178,7 @@ a {
 /*about section*/
 .about-section {
   background-color: #F3BE4E;
-  height: 700px;
+  height: auto;
 }
 
 .row-one{
@@ -609,7 +609,7 @@ footer .footer-below {
 @media only screen and (max-width: 1024px) {
   .note-app-img{
   text-align: center;
-  margin-left: 44px;
+  /* margin-left: 44px; */
    }
 
 
@@ -677,14 +677,14 @@ footer .footer-below {
   }
 
   .about-section{
-    height: 1060px;
+    height: auto;
   }
 
   #about-me{
         padding: 0%;
   }
   .row-one{
-    width: 50%;
+    width: 100%;
     height: auto;
   }
 
@@ -714,7 +714,7 @@ footer .footer-below {
   .note-app-img{
     width: 250px;
     height: 250px;
-    margin-left: auto;
+    /* margin-left: auto; */
   }
 
   .iphone-container{

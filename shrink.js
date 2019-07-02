@@ -18,27 +18,27 @@ $(function() {
   });
 });
 
-$(function(){
-    $(".note-app-img").on('mouseover', function(event){
-      $('.portfolio-caption').css("opacity", "1");
+// $(function(){
+//     $(".note-app-img").on('mouseover', function(event){
+//       $('.portfolio-caption').css("opacity", "1");
 
-    });
+//     });
 
-    $(".note-app-img").on('mouseleave', function(event){
-      $('.portfolio-caption').css("opacity", "0");
-    });
-});
+//     $(".note-app-img").on('mouseleave', function(event){
+//       $('.portfolio-caption').css("opacity", "0");
+//     });
+// });
 
-$(function(){
-  //$('.portfolio-caption-iphone').css("opacity", "0");
-    $(".iphone-container").on('mouseover', function(event){
-      $('.portfolio-caption-iphone').css("opacity", "1");
-    });
+// $(function(){
+//   //$('.portfolio-caption-iphone').css("opacity", "0");
+//     $(".iphone-container").on('mouseover', function(event){
+//       $('.portfolio-caption-iphone').css("opacity", "1");
+//     });
 
-    $(".iphone-container").on('mouseleave', function(event){
-      $('.portfolio-caption-iphone').css("opacity", "0");
-    });
-});
+//     $(".iphone-container").on('mouseleave', function(event){
+//       $('.portfolio-caption-iphone').css("opacity", "0");
+//     });
+// });
 
 
 // $(function(){
