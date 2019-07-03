@@ -16,6 +16,23 @@
 
   <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143189517-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143189517-1');
+  $(function(){
+  var dt = new Date();
+    var dateSpanTag = $("#date")
+    dateSpanTag[0].innerText = dt.getFullYear() 
+});
+</script>
+
+
 </head>
 
 <body id="page-top">

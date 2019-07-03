@@ -18,11 +18,11 @@ $(function() {
   });
 });
 
-$(function(){
-  var dt = new Date();
-    var dateSpanTag = $("#date")
-    dateSpanTag[0].innerText = dt.getFullYear() 
-})
+// $(function(){
+//   var dt = new Date();
+//     var dateSpanTag = $("#date")
+//     dateSpanTag[0].innerText = dt.getFullYear() 
+// });
 
 // $(function(){
 //     $(".note-app-img").on('mouseover', function(event){
