@@ -18,6 +18,12 @@ $(function() {
   });
 });
 
+$(function(){
+  var dt = new Date();
+    var dateSpanTag = $("#date")
+    dateSpanTag[0].innerText = dt.getFullYear() 
+})
+
 // $(function(){
 //     $(".note-app-img").on('mouseover', function(event){
 //       $('.portfolio-caption').css("opacity", "1");

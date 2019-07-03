@@ -61,11 +61,6 @@ $(document).ready(function () {
         }
 
     });
-
-    var dt = new Date();
-    var dateSpanTag = $("#date")
-    dateSpanTag[0].innerText = dt.getFullYear() 
-
 });
 
 
