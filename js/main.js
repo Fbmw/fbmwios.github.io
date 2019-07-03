@@ -1,5 +1,5 @@
 // $(window).ready(function () {
-$(function(){
+// $(function(){
     $("#contact-form").validate({
         rules: {
             fullname: {
@@ -61,7 +61,7 @@ $(function(){
         }
 
     });
-});
+// });
 
 
 
